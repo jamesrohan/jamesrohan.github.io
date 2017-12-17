@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="font-mfizz/font-mfizz-2.4.1/font-mfizz.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
@@ -12,6 +13,10 @@ body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
+}
+
+a{
+  color: black;
 }
 
 /* Create a Parallax Effect */
@@ -36,7 +41,8 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("/w3images/parallax3.jpg");
+    /* background-image: url("/w3images/parallax3.jpg"); */
+    background-image: url("mountains.jpeg");
     min-height: 400px;
 }
 
@@ -86,15 +92,41 @@ body, html {
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center"><em>Computer Scientist
-                        <br><i>Currently seeking new opportunities and challenges in Software Engineering</i>
-                        </em></p>
+  <p class="w3-center">
+                        <h5 class="w3-center">
+                        <em>
+                        Computer Scientist
+                        <br><i>Currently seeking new opportunities and challenges in Software Engineering</i> </h5>
+                        </em>
+    </p>
+
+
     <p> Hi! Welcome to my website, I am James, I recently received a Bachelor's in Computer Science and a Minor in Mathematics from Georgia State University.
       <br><br>
-      As a college student, I’ve worked on multiple Software Engineering and Data Science Projects. I represented <a href="http://acm.cs.gsu.edu/?q=node/177">ACM-GSU</a> and the <a href="http://cs.gsu.edu/">GSU C.Sc. departmen</a> at HackGSU2017 as a Judge. While I represented ACM GSU at other C.Sc. events and workshops as an officer.
+      As a college student, I’ve worked on multiple Software Engineering and Data Science Projects. I've had the privilege of representing <a href="http://acm.cs.gsu.edu/?q=node/177">ACM-GSU</a> and the <a href="http://cs.gsu.edu/">GSU C.Sc. department</a> at HackGSU2017 as a Judge, and represented <a href="https://www.acm.org/">ACM</a> GSU at many other C.Sc. events and workshops as an ACM-Officer.
       <br><br>
-      I am passionate about Computer Science, especially Software Engineering and consider myself a lifelong student. I’ve recently developed a passion for Machine Learning and Deeplearning in particular. As a result I am currently pursuing Deeplearning.ai by Andrew Ng on Coursera with Financial Aid. Additionally, I am an active member of PasciVite a Software Consulting firm cofounded with some of my Classmates at GSU and am currently working on a multi user Grocery List App, while continuing to learn and grow my Scientific and Computer Science skillset.
+      I am passionate about Computer Science, especially Software Engineering and consider myself a lifelong student. I’ve recently developed a passion for Machine Learning and Deeplearning in particular. As a result I am currently pursuing Deeplearning.ai by Andrew Ng on Coursera with Financial Aid.
+      Additionally, I am an active member of PasciVite, a Software Consulting firm cofounded with some of my Classmates at GSU.
+      I am currently working on a personal project, a Multi User Android Grocery List App (Version 2), while continuing to learn and grow my Scientific and Computer Science skillset.
     </p>
+
+    <p class="w3-center">
+      <hr>
+
+      <a href="JavaSE8_OCA_Cert.pdf">
+        <h6 class="w3-center">
+          <i class="icon-oracle-alt" style="font-size:30px;" aria-hidden="true"></i>     Oracle Certified Java Associate
+        </h6></a>
+      <hr>
+      <br>
+      <a href="Resume_JrG.pdf">
+        <h6 class="w3-center">
+          <i class="fa fa-file-text" style="font-size:30px;" aria-hidden="true"></i>  My Resume
+        </h6></a>
+      <hr>
+    </p>
+
+
 
   <div class="w3-row" style="align-content: center; ">
     <div class=" m6 w3-center w3-padding-large">
@@ -108,56 +140,83 @@ body, html {
       <p></p>
     </div> -->
   </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-large w3-center w3-padding-16">I am good at: </p>
 
-  <p class="w3-wide"><i class="fa fa-camera"></i>Java SE</p>
+  <p class="w3-wide"><i class="icon-java" style="font-size:33px;"></i>Java SE</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
   </div>
 
-  <p class="w3-wide"><i class="fa fa-photo"></i>HTML</p>
+  <p class="w3-wide"><i class="icon-html" style="font-size:26px;"></i>HTML</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
   </div>
 
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Python</p>
+  <p class="w3-wide"><i class="icon-python" style="font-size:26px;"></i>Python</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
   </div>
 
-  <p class="w3-wide"><i class="fa fa-photo"></i>SQL (MySQL, SQLite)</p>
+  <p class="w3-wide"><i class="icon-database-alt2" style="font-size:26px;"></i>SQL
+                     (
+                     <i class="icon-mysql" style="font-size:26px;"></i> MySQL,
+                     <i class="icon-mariadb" style="font-size:26px;"></i> MariaDB,
+                     SQLite)</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
   </div>
 
-  <p class="w3-wide"><i class="fa fa-photo"></i>R</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
-  </div>
-
-  <p class="w3-wide"><i class="fa fa-photo"></i>Android Application Development</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
-  </div>
-
-  <p class="w3-wide"><i class="fa fa-photo"></i>CSS</p>
+  <p class="w3-wide"><i class="icon-ubuntu" style="font-size:26px;"></i>Linux Ubuntu</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
   </div>
 
 
+  <p class="w3-wide"><i class="fa fa-photo" style="font-size:21px;"></i>R</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
 
-  <p class="w3-wide"><i class="fa fa-photo"></i>PHP</p>
+  <p class="w3-wide"><i class="fa  fa-github" style="font-size:21px;"></i>GitHub</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p class="w3-wide"><i class="icon-c" style="font-size:26px;"></i>C & C++</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p class="w3-wide"><i class="fa fa-android" style="font-size:21px;"></i>Android Application Development</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p class="w3-wide"><i class="icon-css" style="font-size:26px;"></i>CSS</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+  <p class="w3-wide"><i class="icon-shell" style="font-size:26px;"></i>Bash Scripting</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+
+
+  <p class="w3-wide"><i class="icon-php" style="font-size:26px;"></i>PHP</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
 
-  <p class="w3-wide"><i class="fa fa-photo"></i>JavaScript(jQuery, Ajax)</p>
+  <p class="w3-wide"><i class="icon-javascript" style="font-size:26px;"></i>
+                      JavaScript(
+                      <i class="icon-jquery" style="font-size:20px;"></i> jQuery,
+                      Ajax)</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
 
-  <p class="w3-wide"><i class="fa fa-photo"></i>iOS Application Development</p>
+  <p class="w3-wide"><i class="fa fa-apple" style="font-size:21px;"></i>iOS Application Development</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
@@ -195,7 +254,7 @@ body, html {
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="portfolio">
   <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here's some of my latest work<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center"><em>Here's some of my latest work<br> Click on the images to view description</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
 
@@ -216,7 +275,7 @@ body, html {
 
 
         <div class="w3-col m3" >
-          <img src="room-rent.png" style="width:200px; height: 200px; margin: auto" onclick="onClick(this)" class="w3-hover-opacity"
+          <img src="room-rent.png" style="width:200px; height: 200px; margin: auto;" onclick="onClick(this)" class="w3-hover-opacity"
                 alt="Capstone Project for my Data Science and Management Internship under Prof.Sameer Marthur, IIM Lucknow. <br>
                     Analyzed Hotel related data of
                     42 different cities in India. Made a highly-detailed business report and
@@ -224,7 +283,7 @@ body, html {
           Capstone Project Factors Influencing Indian Hotel Room Rents
         </div>
 
-        <div class="w3-col m3" style="padding-top: 2%; margin: auto">
+        <div class="w3-col m3" style="width:200px; height: 200px; margin: auto;">
           <img src="ML.png" style="width:200px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity"
           alt="Predicted Missing Gene Micro Array Data using Principal Component Analysis (PCA).<br>
                Imputed missing values and then Classified New Instances of another Dataset">
@@ -299,6 +358,7 @@ body, html {
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
+        <p><i class="fa fa-map-marker w3-hover-text-black w3-xlarge w3-margin-right"></i>Willing to relocate if necessary</p>
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Atlanta, GA, US<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: Contact through Email<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: james.reckon@gmail.com<br>
