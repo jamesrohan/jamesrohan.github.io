@@ -1,0 +1,9 @@
+<p> Hi! Welcome to my website. I am James, recently graduated from Georgia State University with an Undergraduate Bachelor of Science degree in Computer Science with a Mathematics Minor.
+      <br><i>I am currently seeking new opportunities and challenges in Software Engineering.</i>
+      My academic areas of interest include Computer Science, Mathematics and Economics.
+      As a student at Georgia State University I worked on multiple Software Engineering and Data-Science/Machine-Learning projects. I served as the Webmaster for
+      ACM GSU and as a Lead Full Stack Web Developer for the GSU Computer Science Club. I represented ACM-GSU and the GSU-Computer-Science Department
+      at HackGSU2017, an MLH hackathon as a Judge and at various other Computer Science Events and Workshops as an Officer of ACM GSU. <br>
+      I am passionate about Computer Science, especially Software Engineering. Also, I recently discovered and become passionate about Machine Learning and Deeplearning in particular.
+      As a result I am pursuing Deeplearning.ai by Andrew Ng on Coursera with Financial Aid. Presently, I am working on a multi user Grocery List App  Firebase
+    </p>
