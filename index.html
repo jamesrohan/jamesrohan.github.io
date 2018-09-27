@@ -20,15 +20,25 @@ a{
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-2, .bgimg-3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: 10% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 /* First image (Logo. Full height) */
 .bgimg-1 {
+    
     background-image: url('jamesHS-UltraMin.JPG');
     min-height: 100%;
 }
@@ -313,17 +323,25 @@ a{
         <div class="w3-col m3" >
           <img src="room-rent.png" style="width:200px; height: 200px; margin: auto;" onclick="onClick(this)" class="w3-hover-opacity"
                 alt="Capstone Project for my Data Science and Management Internship, Indian Institute of Management Lucknow under Prof.Sameer Marthur. <br>
-                    Analyzed Hotel related data of
-                    42 different cities in India. Made a highly-detailed business report and
-                    build a predictive model for Room Rent">
-          Capstone Project Factors Influencing Indian Hotel Room Rents
+                Analyzed Hotel related data of
+                42 different cities in India. Made a highly-detailed business report and
+                build a predictive model for Room Rent">
+                    <p style="text-align: center; width: 200px; margin: auto"> <!--Width is IMG width-->
+                            Capstone Project Factors Influencing Indian Hotel Room Rents
+                    </p>
         </div>
 
-        <div class="w3-col m3" style="width:200px; height: 200px; margin: auto;">
-          <img src="ML.png" style="width:200px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity"
+        
+        
+
+        <div class="w3-col m3" >
+          <img src="ML.png" style="width:200px; height: 200px; margin: auto" onclick="onClick(this)" class="w3-hover-opacity"
           alt="Predicted Missing Gene Micro Array Data using Principal Component Analysis (PCA).<br>
                Imputed missing values and then Classified New Instances of another Dataset">
-          Machine Learning 4980 Final Project
+               <p style="text-align: center; width: 200px; margin: auto">
+                  Machine Learning 4980 Final Project
+               </p>
+         
         </div>
 
 
@@ -339,13 +357,19 @@ a{
     <div class="w3-col m3">
       <img src="AddEmployeeSequence.png" style="width:200px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity"
       alt="Implemented a reservation system, employee database, inventory management system with partitioned levels of employee system access">
-      Hotel Management System
+      <p style="text-align: center; width: 200px; margin: auto">
+          Hotel Management System
+      </p>
+      
     </div>
 
     <div class="w3-col m3">
       <img src="GroApp.png" style="width:200px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity"
       alt="Build a Multi User Grocery List using a remote MySQL database, Android SDK, Android Studio and GitHub">
-      Multi User Android Grocery List Application
+      <p style="text-align: center; width: 200px; margin: auto">
+          Multi User Android Grocery List Application
+      </p>
+      
     </div>
 
     <div class="w3-col m3">
@@ -353,18 +377,32 @@ a{
       alt="Build a Virtual Travel Agent using HTML, CSS, PHP, JavaScript, jQuery.
       Implemented a User system. Who could book flights, reserve Parking and rent Cars.
       Used MVC architecture and build a relational Database for the system using MySQL">
-      Web Based Virtual Travel  Agent
+      <p style="text-align: center; width: 200px; margin: auto">
+          Web Based Virtual Travel  Agent
+      </p>
+      
     </div>
 
     <div class="w3-col m3">
       <img src="DBProj.png" style="width:200px; height: 200px;" onclick="onClick(this)" class="w3-hover-opacity"
       alt="Build a Relational EER Database for a Car Service Center and constructed queries in MySQL">
-      Prototype Relational Database
+      <p style="text-align: center; width: 200px; margin: auto">
+          Prototype Relational Database
+      </p>
+
+     
     </div>
 
     <!-- <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button> -->
   </div>
 </div>
+
+
+
+
+
+
+
 
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
